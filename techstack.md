@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 ashisha7i/tldr-node-client is built on the following main stack:
+
 - [Mocha](http://mochajs.org/) – Javascript Testing Framework
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - [Lodash](https://lodash.com) – Javascript Utilities & Libraries
@@ -12,11 +13,13 @@ ashisha7i/tldr-node-client is built on the following main stack:
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 ashisha7i/tldr-node-client is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/832/mocha.png' alt='Mocha'/> [Mocha](http://mochajs.org/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/2438/lodash.png' alt='Lodash'/> [Lodash](https://lodash.com) – Javascript Utilities & Libraries
@@ -27,14 +30,15 @@ ashisha7i/tldr-node-client is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ashisha7i/tldr-node-client](https://github.com/ashisha7i/tldr-node-client)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|21<br/>Tools used|11/10/23 <br/>Report generated|
+|23<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -150,15 +154,17 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (9)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (11)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (9)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (11)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
+|[chalk](https://www.npmjs.com/chalk)|v2.4.2|10/10/20|Rodrigo Graça |MIT|N/A|
 |[commander](https://www.npmjs.com/commander)|v6.1.0|10/10/20|Rodrigo Graça |MIT|N/A|
 |[fs-extra](https://www.npmjs.com/fs-extra)|v9.0.1|10/10/20|Rodrigo Graça |MIT|N/A|
 |[glob](https://www.npmjs.com/glob)|v7.1.6|10/10/20|Rodrigo Graça |ISC|N/A|
+|[husky](https://www.npmjs.com/husky)|v4.3.0|10/10/20|Rodrigo Graça |MIT|N/A|
 |[marked](https://www.npmjs.com/marked)|v4.0.10|01/17/22|dependabot[bot] |MIT|N/A|
 |[ms](https://www.npmjs.com/ms)|v2.0.0|12/08/13|Romain Prieto |MIT|N/A|
 |[natural](https://www.npmjs.com/natural)|v2.1.5|10/10/20|Rodrigo Graça |MIT|N/A|
@@ -169,4 +175,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
