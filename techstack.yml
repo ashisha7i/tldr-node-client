@@ -1,11 +1,12 @@
 repo_name: ashisha7i/tldr-node-client
 report_id: 5c50548dea79d6e414ae3dcb26a93e3f
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T00:59:46+00:00'
+timestamp: '2024-01-05T09:04:23+00:00'
 requested_by: dependabot[bot]
 provider: github
 branch: master
-detected_tools_count: 21
+detected_tools_count: 23
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ashisha7i/tldr-node-client
   detection_source: Repo Metadata
 - name: ESLint
   description: The fully pluggable JavaScript code quality tool
@@ -26,6 +28,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/ashisha7i/tldr-node-client/blob/master/package.json
   detection_source: package.json
   last_updated_by: Romain Prieto
   last_updated_on: 2013-12-08 08:56:16.000000000 Z
@@ -37,6 +40,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ashisha7i/tldr-node-client
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -46,6 +50,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ashisha7i/tldr-node-client/blob/master/.github/workflows/test.yml
   detection_source: ".github/workflows/test.yml"
   last_updated_by: Matthew Peveler
   last_updated_on: 2020-06-10 09:49:34.000000000 Z
@@ -60,7 +65,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/832/mocha.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/ashisha7i/tldr-node-client/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Rodrigo Graça
   last_updated_on: 2020-10-10 17:11:18.000000000 Z
@@ -73,7 +78,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/3509/logo.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/ashisha7i/tldr-node-client/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Rodrigo Graça
   last_updated_on: 2020-10-10 17:11:18.000000000 Z
@@ -85,6 +90,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ashisha7i/tldr-node-client/blob/master/package.json
   detection_source: package.json
   last_updated_by: Romain Prieto
   last_updated_on: 2013-12-08 08:56:16.000000000 Z
@@ -97,7 +103,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2438/lodash.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/ashisha7i/tldr-node-client/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Rodrigo Graça
   last_updated_on: 2020-10-10 17:11:18.000000000 Z
@@ -110,6 +116,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ashisha7i/tldr-node-client
   detection_source: Repo Metadata
 - name: axios
   description: Promise based HTTP client for the browser and node.js
@@ -121,7 +128,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/ashisha7i/tldr-node-client/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-01-06 10:02:12.000000000 Z
@@ -131,6 +138,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/ashisha7i/tldr-node-client/blob/master/package.json
   detection_source: package.json
   last_updated_by: Rodrigo Graça
   last_updated_on: 2020-10-10 17:11:18.000000000 Z
@@ -139,6 +147,21 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/ashisha7i/tldr-node-client/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Rodrigo Graça
+  last_updated_on: 2020-10-10 17:11:18.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/ashisha7i/tldr-node-client/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Rodrigo Graça
   last_updated_on: 2020-10-10 17:11:18.000000000 Z
@@ -152,7 +175,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15829/default_50135978d26eba7c09093ceb23b96d522898e4eb.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/ashisha7i/tldr-node-client/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Rodrigo Graça
   last_updated_on: 2020-10-10 17:11:18.000000000 Z
@@ -167,7 +190,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/ashisha7i/tldr-node-client/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Rodrigo Graça
   last_updated_on: 2020-10-10 17:11:18.000000000 Z
@@ -181,7 +204,21 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/ashisha7i/tldr-node-client/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Rodrigo Graça
+  last_updated_on: 2020-10-10 17:11:18.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/ashisha7i/tldr-node-client/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Rodrigo Graça
   last_updated_on: 2020-10-10 17:11:18.000000000 Z
@@ -195,7 +232,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/ashisha7i/tldr-node-client/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2022-01-17 03:16:05.000000000 Z
@@ -209,7 +246,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16565/default_536789d2630ed352dc721a1c915ab456b7660201.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/ashisha7i/tldr-node-client/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Romain Prieto
   last_updated_on: 2013-12-08 08:56:16.000000000 Z
@@ -223,7 +260,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18160/default_0bb0f4fd59640311a8af225b57652f46ca85cd80.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/ashisha7i/tldr-node-client/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Rodrigo Graça
   last_updated_on: 2020-10-10 17:11:18.000000000 Z
@@ -237,7 +274,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15837/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/ashisha7i/tldr-node-client/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Romain Prieto
   last_updated_on: 2013-12-08 08:56:16.000000000 Z
@@ -251,7 +288,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15937/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/ashisha7i/tldr-node-client/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Romain Prieto
   last_updated_on: 2013-12-08 08:56:16.000000000 Z
@@ -265,7 +302,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15871/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/ashisha7i/tldr-node-client/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Christian Casamirra
   last_updated_on: 2019-05-22 09:15:55.000000000 Z
